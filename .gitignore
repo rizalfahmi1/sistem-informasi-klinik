@@ -1,49 +1,33 @@
-# History files
-.Rhistory
-.Rapp.history
+# phpstorm project files
+.idea
 
-# Session Data files
-.RData
-.RDataTmp
+# netbeans project files
+nbproject
 
-# User-specific files
-.Ruserdata
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
 
-# Example code in package build process
-*-Ex.R
+# windows thumbnail cache
+Thumbs.db
 
-# Output files from R CMD build
-/*.tar.gz
+# composer vendor dir
+/vendor
 
-# Output files from R CMD check
-/*.Rcheck/
+# composer itself is not needed
+composer.phar
 
-# RStudio files
-.Rproj.user/
+# Mac DS_Store Files
+.DS_Store
 
-# produced vignettes
-vignettes/*.html
-vignettes/*.pdf
+# phpunit itself is not needed
+phpunit.phar
+# local phpunit config
+/phpunit.xml
 
-# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
-.httr-oauth
+tests/_output/*
+tests/_support/_generated
 
-# knitr and R markdown default cache directories
-*_cache/
-/cache/
-
-# Temporary files created by R markdown
-*.utf8.md
-*.knit.md
-
-# R Environment Variables
-.Renviron
-
-# pkgdown site
-docs/
-
-# translation temp files
-po/*~
-
-# RStudio Connect folder
-rsconnect/
+#vagrant folder
+/.vagrant
